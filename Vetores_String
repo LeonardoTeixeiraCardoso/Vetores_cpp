@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string fruta [15] = {"Abacate" , "Melão" , "Uva" , "Quiabo" , "Rabanete" , "Jiló" , "Mexirica" , "Melancia" , "Maçã" , "Banana" , "Abóbora" , "Carambola" , "Fruta do Conde" , "Caju" , "Lixia"};
+    
+    cout << fruta [0]
+
+return 0;
+}
