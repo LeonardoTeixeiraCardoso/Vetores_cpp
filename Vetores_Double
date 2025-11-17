@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double preços [15] = {1.25 , 2.50 , 3.75 , 10.25 , 6.25 , 5.50 , 12.35 , 4.99 , 7.80 , 1.10 , 90.99 , 23.25 , 36.12 , 50.10 , 0.99};
+    
+    cout << preços [14];
+    
+    return 0;
+}
+
