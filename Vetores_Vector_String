@@ -1,0 +1,25 @@
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+int main() {
+    
+    vector<string> modelos = {
+        "Toyota Corolla",
+        "Toyota Hilux",
+        "Honda Civic",
+        "Honda Fit",
+        "Ford Mustang",
+        "Ford Fiesta",
+        "Chevrolet Onix",
+        "Chevrolet Camaro"
+    };
+
+    cout << "Modelos de carro:\n";
+    for (const auto& modelo : modelos) {
+    cout << "- " << modelo << endl;
+    }
+
+    return 0;
+}
