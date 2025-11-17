@@ -1,0 +1,25 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    
+    // Vetor com preços de carros (valores fictícios)
+    vector<float> precos = {
+        145000.0f,  // Toyota Corolla
+        280000.0f,  // Toyota Hilux
+        160000.0f,  // Honda Civic
+        90000.0f,   // Honda Fit
+        350000.0f,  // Ford Mustang
+        75000.0f,   // Ford Fiesta
+        85000.0f,   // Chevrolet Onix
+        420000.0f   // Chevrolet Camaro
+    };
+
+    cout << "Preços dos carros:\n";
+    for (float preco : precos) {
+        cout << "R$ " << preco << endl;
+    }
+
+    return 0;
+}
